@@ -1,0 +1,34 @@
+{
+  "name": "printable-string",
+  "version": "0.3.0",
+  "description": "Convert non-printable chars in string into their printable form",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp && mocha test/*-test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobbubu/printable-string.git"
+  },
+  "keywords": [
+    "printable",
+    "ascii",
+    "unicode",
+    "non-printable"
+  ],
+  "author": "Rng Shen <rong.shen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbubu/printable-string/issues"
+  },
+  "homepage": "https://github.com/jacobbubu/printable-string",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.7",
+    "gulp-coffee": "^2.1.1",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-util": "^3.0.0",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
